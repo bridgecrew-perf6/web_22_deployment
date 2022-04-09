@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            background-color: burlywood;
+            margin-bottom: 1rem;
+        }
+        nav{
+            
+            width: 60vw;
+        }
+        .he{
+            display:flex;
+            justify-content: space-evenly;
+            width:20 rem;
+        }
+        .he>.she{
+            width:30%;
+            font-size: 1.5rem;
+        }
+        a:link{
+        color: black;
+        }
+        a:visited{
+        color: black;
+        }
+        a:hover{
+        color: red;
+        }
+        a:active{
+        color: red;
+        }
+        .main_img{
+            width:75%;
+            height:auto;
+        }
+        button{
+            width:20%;
+        }
+        .child{
+            width: 80vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+        }
+        .upc{
+            border: 2px black;
+            background-color: lightcyan;
+        }
+        footer{
+            height: 2rem;
+            background-color: black;
+            color: white;
+            text-align: center;
+            /*boldness*/
+            font-weight: 400;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FITNESS CLUB</h1>
+        <nav>
+            <ul class="he">
+                <li class="she"><a href="">About</a></li>
+                <li class="she"><a href="">Trainings</a></li>
+                <li class="she"><a href="">Timetable</a></li>
+                <li class="she"><a href="">Nutrition</a></li>
+                <li class="she"><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="parent">
+        <div class="child">
+            <img src="download_fit.jpg" class="main_img">
+            <button type="button">Register Now</button>
+        </div>
+        </div>
+    </section>
+    <div class="kuchbhi">
+        <h3>Info and Facilities</h3>
+        <ul>
+        <li>Free Parking</li>
+        <li>Free Weights</li>
+        <li>Group Exercise</li>
+        <li>Lounge Area</li>
+        </ul>
+    </div>
+    <div class="upc">
+        <h2>Upcoming Events</h2>
+        <p>In-club competitions or challenges</p>
+        <p>Testing event or food fair</p>
+        <p>Charity event</p>
+        <p>Guest instructor nights</p>
+    </div>
+    <footer>&copy;Prasoon</footer>
+</body>
+</html>
