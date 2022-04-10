@@ -51,7 +51,7 @@ header{
 ul{
     display:flex;
     justify-content: space-evenly;
-    width:20 rem;
+    width:30 rem;
 }
 ul>li{
     width:30%;
